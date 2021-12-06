@@ -1,0 +1,6 @@
+rootProject.name = 'maven-build-tools-project'
+include(':web')
+include(':utils')
+include(':admin')
+include(':shared')
+include(':services')

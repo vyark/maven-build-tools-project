@@ -1,0 +1,19 @@
+# Project exclude paths
+/.gradle/
+/admin/build/
+/admin/build/classes/java/main/
+/admin/build/classes/java/test/
+/build/
+/buildSrc/.gradle/
+/buildSrc/build/
+/buildSrc/build/classes/java/main/
+/services/build/
+/services/build/classes/java/main/
+/services/build/classes/java/test/
+/shared/build/
+/utils/build/
+/utils/build/classes/java/main/
+/utils/build/classes/java/test/
+/web/build/
+/web/build/classes/java/main/
+/web/build/classes/java/test/

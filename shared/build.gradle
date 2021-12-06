@@ -1,0 +1,10 @@
+plugins {
+    id 'com.builders.java-conventions'
+}
+
+dependencies {
+    implementation project(':services')
+    testImplementation 'junit:junit:4.7'
+}
+
+description = 'shared'

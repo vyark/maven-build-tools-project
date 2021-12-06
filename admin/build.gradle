@@ -1,0 +1,12 @@
+plugins {
+    id 'com.builders.java-conventions'
+}
+
+dependencies {
+    implementation project(':services')
+    implementation project(':utils')
+    testImplementation 'junit:junit:4.7'
+}
+
+libsDirName = 'C:/Users/Volha_Yarkouskaya/IdeaProjects/lib'
+description = 'admin'

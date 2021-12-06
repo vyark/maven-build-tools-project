@@ -1,0 +1,13 @@
+plugins {
+    id 'com.builders.java-conventions'
+    id 'war'
+}
+
+dependencies {
+    implementation project(':services')
+    implementation project(':utils')
+    testImplementation 'junit:junit:4.7'
+    providedCompile 'javax.servlet:servlet-api:2.5'
+}
+libsDirName = 'C:/Users/Volha_Yarkouskaya/IdeaProjects/lib'
+description = 'web'
