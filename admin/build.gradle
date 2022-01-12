@@ -5,6 +5,7 @@ plugins {
 dependencies {
     implementation project(':services')
     implementation project(':utils')
+    implementation 'org.projectlombok:lombok:1.18.20'
     testImplementation 'junit:junit:4.7'
 }
 
