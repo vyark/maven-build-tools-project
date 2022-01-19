@@ -12,7 +12,7 @@ public class AdminEntryPointTest {
 
     @Test
     public void testHello() {
-        InputStream stream = BuildersUtil.class.getClassLoader().getResourceAsStream("admin_config_test.properties");
+        InputStream stream = BuildersUtil.class.getClassLoader().getResourceAsStream("admin_config_test1.properties");
         Properties properties = new Properties();
         try {
             properties.load(stream);
