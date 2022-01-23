@@ -10,6 +10,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>maven-build-tools-project</name>
 
+    <build>
+        <finalName>${project.artifactId}-${version}</finalName>
+    </build>
+
     <modules>
         <module>admin</module>
         <module>web</module>
