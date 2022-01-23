@@ -7,6 +7,9 @@ import java.io.InputStream;
 import java.util.Arrays;
 import java.util.Properties;
 
+/**
+ * Admin entry point
+ */
 public class AdminEntryPoint {
 
     public static void main(String[] args) {
