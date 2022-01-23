@@ -5,7 +5,9 @@ import com.builders.utils.BuildersUtil;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
-
+/**
+ * Builder service entry point
+ */
 public class BuilderService {
 
     public String sayHello() {
