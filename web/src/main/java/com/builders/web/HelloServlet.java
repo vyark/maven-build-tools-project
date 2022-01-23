@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
-
+/**Hello Servlet class*/
 public class HelloServlet extends HttpServlet {
 
     @Override
