@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+/**
+ * Builders utils class
+ */
 public class BuildersUtil {
 
     public static final String sayHello() {
